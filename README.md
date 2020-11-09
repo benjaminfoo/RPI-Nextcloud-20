@@ -2,8 +2,7 @@
 This guide provides step-by-step instructions on setting up the Nextcloud 20 on the RPI4
 \
 \
-Its basically a setup-guide for the installation of a headless RetroPie-build but also contains additional 
-instructions / settings / recommondations to greatly enhance the handheld-aspect of the system.
+Its basically a setup-guide for the installation of a headless RPI4.
 
 ## Pre-Setup
 This steps are necessary to get the rpi up and running properly.
