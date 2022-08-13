@@ -84,10 +84,20 @@ you've to setup your storage first.
 - Use ''localhost'' as the database url
 - Click Finish - this will take a while - get yourself a coffee =)
 
+
+#### Advanced Settings
+##### Warning: The PHP memory limit is below the recommended value of 512MB
+- Open /etc/php/7.4/fpm/php.ini
+- Search for ''memory_limit''
+- Set it to a value of preference, for example 512M or 1G
+
 #### Misc.
 - Scan manually added files `` sudo -u www-data php /var/www/nextcloud/occ files:scan --all``
+
 
 
 ### Further information
 - https://www.stewright.me/2020/05/how-to-install-nextcloud-on-raspberry-pi/
 - https://help.nextcloud.com/t/howto-change-move-data-directory-after-installation/17170
+
+
