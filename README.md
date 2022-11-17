@@ -94,6 +94,9 @@ you've to setup your storage first.
 #### Misc.
 - Scan manually added files `` sudo -u www-data php /var/www/nextcloud/occ files:scan --all``
 
+#### Disable Bluetooth & Wifi
+- Open ''sudo nano /etc/fstab''
+- Add ''dtoverlay=disable-bt'' and ''dtoverlay=disable-wifi''
 
 
 ### Further information
