@@ -1,4 +1,4 @@
-# Nextcloud 20 Guide
+# Nextcloud 24 Guide
 This guide provides step-by-step instructions on setting up the Nextcloud 20 on the RPI4
 \
 \
