@@ -98,9 +98,13 @@ you've to setup your storage first.
 - Open ''sudo nano /etc/fstab''
 - Add ''dtoverlay=disable-bt'' and ''dtoverlay=disable-wifi''
 
+# Disable audio
+dtparam=audio=off
+
+# Disable camera and display
+camera_auto_detect=0
+display_auto_detect=0
 
 ### Further information
 - https://www.stewright.me/2020/05/how-to-install-nextcloud-on-raspberry-pi/
 - https://help.nextcloud.com/t/howto-change-move-data-directory-after-installation/17170
-
-
