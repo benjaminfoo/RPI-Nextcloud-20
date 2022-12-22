@@ -35,7 +35,7 @@ Launch ``raspi-config`` select ``advanced options`` and ``expand filesystem``
 #### System Update & Upgrade
 Use ``sudo apt update -y && sudo apt upgrade -y``
 
-#### Learn & use Docker
+#### Use Docker
 Create a mariadb and a nextcloud container, setup the mariadb's ip within nextcloud = done!
 
 #### Misc.
@@ -51,7 +51,3 @@ dtparam=audio=off
 # Disable camera and display
 camera_auto_detect=0
 display_auto_detect=0
-
-### Further information
-- https://www.stewright.me/2020/05/how-to-install-nextcloud-on-raspberry-pi/
-- https://help.nextcloud.com/t/howto-change-move-data-directory-after-installation/17170
